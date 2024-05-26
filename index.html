@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Forecast</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+            <div id="header">
+                <div id ="logo"><img src="icon.png" class="logo" /></div>
+                <div class = "form">
+                <form>
+                    <input type="text" id="search-input" placeholder="Enter Your Location..." />
+                    <button id="search-button">Search</button>
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <div class="search-results">
+            
+        </div>
+        <div class="button">
+            <button id="show-more-button">Show more</button>
+            <button id = "scroll-to-top-button">
+                <i class="material-icons">arrow_upward</i>
+            </button>
+        </div>
+
+        
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
