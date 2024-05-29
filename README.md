@@ -25,6 +25,8 @@ Outfit Forecast is a web application that provides outfit suggestions based on t
 
 2. Open index.html in your web browser.
 
+3. Or see the website hosted on GitHub pages: https://marcvidalcodes.github.io/Outfit-Forecast/
+
 ### Note on API Keys
 
 Keeping API keys secure is very important. However, for the purpose of this demo, the API keys are included directly in the code and are publicly accessible in this repository. In a production environment, it is crucial to keep these keys secure by using environment variables or other secure methods.
